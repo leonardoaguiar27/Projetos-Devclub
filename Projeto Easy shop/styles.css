@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+.wrapper {
+    height: 100vh; 
+    width: 100vw;
+}
+
+.conteiner-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-right: 142px;
+    margin-bottom: 123px;
+    margin-top: 15%;
+}
+
+.conteiner-right {
+    display: inline-block;
+    background-color:rgba(93, 93, 125,0.16);
+    height: 100%;
+    width: 40%;
+    position: absolute;
+}
+
+h1 {
+    width: 368px;   
+    font-size: 70px;
+    line-height: 80px;
+}
+
+p {
+    width: 540px;
+    text-align: justify;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.60;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    line-height: normal;
+    color: #FFF;
+    fill: #9499EA;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+    background-color: #9499EA;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+img {
+    width: 456px;
+    height: 597px;
+    position: relative;
+    top: 10%;
+    right: 130px;
+}
+
+header {
+    margin-top: 24px;
+}
+
+.link-header {
+    margin-left: 41px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+a:active {
+    opacity: .4;
+}
+
+@media screen and (max-width: 900px) {
+
+    .conteiner-left {
+        
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .conteiner-right {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+        height: 355px;
+        
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        width: auto;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 58px 58px 0 50px;
+    }
+
+    p {
+      margin: 15px 48px;
+      width: auto;
+      text-align: center;
+      font-size: 14px;
+      line-height: 24px;  
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+
+    .conteiner-left {
+        height: 70%;
+    }
+}
